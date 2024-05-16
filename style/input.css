@@ -37,11 +37,14 @@ body{
     background: rgb(211, 210, 210);
     display: flex;
     margin-left: 8px;
-    /* position: fixed; */
+    position: fixed;
     flex: 70%;
     justify-content: space-between;
     margin-left: 170px; 
     padding: 0px 10px;
+    overflow: hidden;
+    width: 100%;
+    
     
 }
 nav {
