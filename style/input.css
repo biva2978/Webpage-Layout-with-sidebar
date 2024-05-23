@@ -33,6 +33,7 @@ body{
     color: #827979;
     display: block;
     font-size: 20px;
+    top: 0;
   }
   .sidenav a:hover ,nav a:hover {
     color: #d47272;
@@ -42,13 +43,11 @@ body{
     background: rgb(211, 210, 210);
     display: flex;
     margin-left: 8px;
-    /* position: fixed; */
     flex: 70%;
     justify-content: space-between;
     margin-left: 170px; 
     padding: 20px 10px 0px 10px;
-    overflow: hidden;
-    
+    overflow: hidden; 
     
 }
 nav {
@@ -74,12 +73,10 @@ nav a{
     margin-left: 170px;
     height: 700px; 
     overflow-y: scroll;
+
 }
 
-footer {
-    background: #E7E9EB;
-    text-align: center;
-    padding: 10px;
-    margin-top: 8px;
-    margin-left: 160px; 
+
+.navigation{
+    position: fixed;
 }
